@@ -1,0 +1,31 @@
+name = input("Enter your name:")
+age = input("...and your age:")
+age2 = int(age) + 1
+
+remainder = (age2 % 10)
+
+ending1 = "st"
+ending2 = "nd"
+ending3 = "rd"
+ending4 = "th"
+
+if remainder == 1:
+    print("Hello " + name + "! I can't wait for your " + str(age2) + str(ending1) + " birthday!")
+if remainder == 2:
+    print("Hello " + name + "! I can't wait for your " + str(age2) + str(ending2) + " birthday!")
+if remainder == 3:
+    print("Hello " + name + "! I can't wait for your " + str(age2) + str(ending3) + " birthday!")
+if remainder == 4:
+    print("Hello " + name + "! I can't wait for your " + str(age2) + str(ending4) + " birthday!")
+if remainder == 5:
+    print("Hello " + name + "! I can't wait for your " + str(age2) + str(ending4) + " birthday!")
+if remainder == 6:
+    print("Hello " + name + "! I can't wait for your " + str(age2) + str(ending4) + " birthday!")
+if remainder == 7:
+    print("Hello " + name + "! I can't wait for your " + str(age2) + str(ending4) + " birthday!")
+if remainder == 8:
+    print("Hello " + name + "! I can't wait for your " + str(age2) + str(ending4) + " birthday!")
+if remainder == 9:
+    print("Hello " + name + "! I can't wait for your " + str(age2) + str(ending4) + " birthday!")
+if remainder == 0:
+    print("Hello " + name + "! I can't wait for your " + str(age2) + str(ending4) + " birthday!")
